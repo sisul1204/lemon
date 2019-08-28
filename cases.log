@@ -1,0 +1,212 @@
+2019-07-14 22:02:05,420 - [INFO] - [msg]开始执行用例 - test_01_register.py - 25
+2019-07-14 22:02:11,029 - [INFO] - [msg]用例执行结束 - test_01_register.py - 31
+2019-07-14 22:09:00,097 - [INFO] - [msg]开始执行用例 - test_01_register.py - 25
+2019-07-14 22:09:22,095 - [INFO] - [msg]用例执行结束 - test_01_register.py - 31
+2019-07-14 22:09:37,366 - [INFO] - [msg]开始执行用例 - test_01_register.py - 25
+2019-07-14 22:09:37,909 - [ERROR] - [msg]测试注册成功-信息完整, 执行结果为：Fail具体异常为：'{"status":1, "code":"10001", "data":null, "msg":"注册成功"}' != '<html><head><title>Apache Tomcat/6.0.53 -[966 chars]tml>'
+Diff is 1073 characters long. Set self.maxDiff to None to see it. : 测试注册成功-信息完整 - test_01_register.py - 56
+2019-07-14 22:09:38,377 - [ERROR] - [msg]测试注册成功-无昵称, 执行结果为：Fail具体异常为：'{"status":1, "code":"10001", "data":null, "msg":"注册成功"}' != '<html><head><title>Apache Tomcat/6.0.53 -[966 chars]tml>'
+Diff is 1073 characters long. Set self.maxDiff to None to see it. : 测试注册成功-无昵称 - test_01_register.py - 56
+2019-07-14 22:09:38,869 - [ERROR] - [msg]测试注册成功-无昵称字段, 执行结果为：Fail具体异常为：'{"status":1, "code":"10001", "data":null, "msg":"注册成功"}' != '<html><head><title>Apache Tomcat/6.0.53 -[966 chars]tml>'
+Diff is 1073 characters long. Set self.maxDiff to None to see it. : 测试注册成功-无昵称字段 - test_01_register.py - 56
+2019-07-14 22:09:39,300 - [ERROR] - [msg]测试密码为空, 执行结果为：Fail具体异常为：'{"status":1, "code":"20103", "data":null, "msg":"密码不能为空"}' != '<html><head><title>Apache Tomcat/6.0.53 -[966 chars]tml>'
+Diff is 1075 characters long. Set self.maxDiff to None to see it. : 测试密码为空 - test_01_register.py - 56
+2019-07-14 22:09:39,750 - [ERROR] - [msg]测试手机号为空, 执行结果为：Fail具体异常为：'{"status":1, "code":"20103", "data":null,[13 chars]为空"}' != '<html><head><title>Apache Tomcat/6.0.53 -[966 chars]tml>'
+Diff is 1076 characters long. Set self.maxDiff to None to see it. : 测试手机号为空 - test_01_register.py - 56
+2019-07-14 22:09:40,199 - [ERROR] - [msg]测试手机号小于11位, 执行结果为：Fail具体异常为：'{"status":1, "code":"20109", "data":null,[14 chars]正确"}' != '<html><head><title>Apache Tomcat/6.0.53 -[966 chars]tml>'
+Diff is 1077 characters long. Set self.maxDiff to None to see it. : 测试手机号小于11位 - test_01_register.py - 56
+2019-07-14 22:09:40,624 - [ERROR] - [msg]测试手机号大于11位, 执行结果为：Fail具体异常为：'{"status":1, "code":"20109", "data":null,[14 chars]正确"}' != '<html><head><title>Apache Tomcat/6.0.53 -[966 chars]tml>'
+Diff is 1077 characters long. Set self.maxDiff to None to see it. : 测试手机号大于11位 - test_01_register.py - 56
+2019-07-14 22:09:41,150 - [ERROR] - [msg]测试密码小于6位, 执行结果为：Fail具体异常为：'{"status":1, "code":"20108", "data":null,[17 chars]18"}' != '<html><head><title>Apache Tomcat/6.0.53 -[966 chars]tml>'
+Diff is 1080 characters long. Set self.maxDiff to None to see it. : 测试密码小于6位 - test_01_register.py - 56
+2019-07-14 22:09:41,636 - [ERROR] - [msg]测试密码大于18位, 执行结果为：Fail具体异常为：'{"status":1, "code":"20108", "data":null,[17 chars]18"}' != '<html><head><title>Apache Tomcat/6.0.53 -[966 chars]tml>'
+Diff is 1080 characters long. Set self.maxDiff to None to see it. : 测试密码大于18位 - test_01_register.py - 56
+2019-07-14 22:09:42,135 - [ERROR] - [msg]测试手机号已注册, 执行结果为：Fail具体异常为：'{"status":1, "code":"20110", "data":null,[14 chars]注册"}' != '<html><head><title>Apache Tomcat/6.0.53 -[966 chars]tml>'
+Diff is 1077 characters long. Set self.maxDiff to None to see it. : 测试手机号已注册 - test_01_register.py - 56
+2019-07-14 22:09:42,136 - [INFO] - [msg]用例执行结束 - test_01_register.py - 31
+2019-07-14 22:11:47,182 - [INFO] - [msg]开始执行用例 - test_01_register.py - 25
+2019-07-14 22:12:02,524 - [INFO] - [msg]用例执行结束 - test_01_register.py - 31
+2019-07-14 22:12:07,320 - [INFO] - [msg]开始执行用例 - test_01_register.py - 25
+2019-07-14 22:12:15,237 - [INFO] - [msg]用例执行结束 - test_01_register.py - 31
+2019-07-14 22:18:25,392 - [INFO] - [msg]开始执行用例 - test_01_register.py - 25
+2019-07-14 22:18:25,935 - [ERROR] - [msg]测试注册成功-信息完整, 执行结果为：Fail具体异常为：'{"status":1, "code":"10001", "data":null, "msg":"注册成功"}' != '<html><head><title>Apache Tomcat/6.0.53 -[966 chars]tml>'
+Diff is 1073 characters long. Set self.maxDiff to None to see it. : 测试注册成功-信息完整 - test_01_register.py - 56
+2019-07-14 22:18:26,399 - [ERROR] - [msg]测试注册成功-无昵称, 执行结果为：Fail具体异常为：'{"status":1, "code":"10001", "data":null, "msg":"注册成功"}' != '<html><head><title>Apache Tomcat/6.0.53 -[966 chars]tml>'
+Diff is 1073 characters long. Set self.maxDiff to None to see it. : 测试注册成功-无昵称 - test_01_register.py - 56
+2019-07-14 22:18:27,039 - [ERROR] - [msg]测试注册成功-无昵称字段, 执行结果为：Fail具体异常为：'{"status":1, "code":"10001", "data":null, "msg":"注册成功"}' != '<html><head><title>Apache Tomcat/6.0.53 -[966 chars]tml>'
+Diff is 1073 characters long. Set self.maxDiff to None to see it. : 测试注册成功-无昵称字段 - test_01_register.py - 56
+2019-07-14 22:18:27,573 - [ERROR] - [msg]测试密码为空, 执行结果为：Fail具体异常为：'{"status":1, "code":"20103", "data":null, "msg":"密码不能为空"}' != '<html><head><title>Apache Tomcat/6.0.53 -[966 chars]tml>'
+Diff is 1075 characters long. Set self.maxDiff to None to see it. : 测试密码为空 - test_01_register.py - 56
+2019-07-14 22:18:27,966 - [ERROR] - [msg]测试手机号为空, 执行结果为：Fail具体异常为：'{"status":1, "code":"20103", "data":null,[13 chars]为空"}' != '<html><head><title>Apache Tomcat/6.0.53 -[966 chars]tml>'
+Diff is 1076 characters long. Set self.maxDiff to None to see it. : 测试手机号为空 - test_01_register.py - 56
+2019-07-14 22:18:29,057 - [ERROR] - [msg]测试手机号小于11位, 执行结果为：Fail具体异常为：'{"status":1, "code":"20109", "data":null,[14 chars]正确"}' != '<html><head><title>Apache Tomcat/6.0.53 -[966 chars]tml>'
+Diff is 1077 characters long. Set self.maxDiff to None to see it. : 测试手机号小于11位 - test_01_register.py - 56
+2019-07-14 22:18:29,467 - [ERROR] - [msg]测试手机号大于11位, 执行结果为：Fail具体异常为：'{"status":1, "code":"20109", "data":null,[14 chars]正确"}' != '<html><head><title>Apache Tomcat/6.0.53 -[966 chars]tml>'
+Diff is 1077 characters long. Set self.maxDiff to None to see it. : 测试手机号大于11位 - test_01_register.py - 56
+2019-07-14 22:18:29,940 - [ERROR] - [msg]测试密码小于6位, 执行结果为：Fail具体异常为：'{"status":1, "code":"20108", "data":null,[17 chars]18"}' != '<html><head><title>Apache Tomcat/6.0.53 -[966 chars]tml>'
+Diff is 1080 characters long. Set self.maxDiff to None to see it. : 测试密码小于6位 - test_01_register.py - 56
+2019-07-14 22:18:30,392 - [ERROR] - [msg]测试密码大于18位, 执行结果为：Fail具体异常为：'{"status":1, "code":"20108", "data":null,[17 chars]18"}' != '<html><head><title>Apache Tomcat/6.0.53 -[966 chars]tml>'
+Diff is 1080 characters long. Set self.maxDiff to None to see it. : 测试密码大于18位 - test_01_register.py - 56
+2019-07-14 22:18:30,882 - [ERROR] - [msg]测试手机号已注册, 执行结果为：Fail具体异常为：'{"status":1, "code":"20110", "data":null,[14 chars]注册"}' != '<html><head><title>Apache Tomcat/6.0.53 -[966 chars]tml>'
+Diff is 1077 characters long. Set self.maxDiff to None to see it. : 测试手机号已注册 - test_01_register.py - 56
+2019-07-14 22:18:30,883 - [INFO] - [msg]用例执行结束 - test_01_register.py - 31
+2019-07-14 22:20:17,164 - [INFO] - [msg]开始执行用例 - test_01_register.py - 25
+2019-07-14 22:21:16,595 - [INFO] - [msg]用例执行结束 - test_01_register.py - 31
+2019-07-14 22:21:57,749 - [INFO] - [msg]开始执行用例 - test_01_register.py - 25
+2019-07-14 22:22:04,099 - [ERROR] - [msg]测试注册成功-信息完整, 执行结果为：Fail具体异常为：'{"status":1, "code":"10001", "data":null, "msg":"注册成功"}' != '{"status":1,"code":"10001","data":null,"msg":"注册成功"}'
+- {"status":1, "code":"10001", "data":null, "msg":"注册成功"}
+?             -               -            -
++ {"status":1,"code":"10001","data":null,"msg":"注册成功"}
+ : 测试注册成功-信息完整 - test_01_register.py - 56
+2019-07-14 22:22:12,386 - [ERROR] - [msg]测试注册成功-无昵称, 执行结果为：Fail具体异常为：'{"status":1, "code":"10001", "data":null, "msg":"注册成功"}' != '{"status":1,"code":"10001","data":null,"msg":"注册成功"}'
+- {"status":1, "code":"10001", "data":null, "msg":"注册成功"}
+?             -               -            -
++ {"status":1,"code":"10001","data":null,"msg":"注册成功"}
+ : 测试注册成功-无昵称 - test_01_register.py - 56
+2019-07-14 22:22:16,515 - [ERROR] - [msg]测试注册成功-无昵称字段, 执行结果为：Fail具体异常为：'{"status":1, "code":"10001", "data":null, "msg":"注册成功"}' != '{"status":1,"code":"10001","data":null,"msg":"注册成功"}'
+- {"status":1, "code":"10001", "data":null, "msg":"注册成功"}
+?             -               -            -
++ {"status":1,"code":"10001","data":null,"msg":"注册成功"}
+ : 测试注册成功-无昵称字段 - test_01_register.py - 56
+2019-07-14 22:22:24,719 - [ERROR] - [msg]测试密码为空, 执行结果为：Fail具体异常为：'{"status":1, "code":"20103", "data":null, "msg":"密码不能为空"}' != '{"status":0,"code":"20103","data":null,"msg":"密码不能为空"}'
+- {"status":1, "code":"20103", "data":null, "msg":"密码不能为空"}
+?           ^ -               -            -
++ {"status":0,"code":"20103","data":null,"msg":"密码不能为空"}
+?           ^
+ : 测试密码为空 - test_01_register.py - 56
+2019-07-14 22:22:29,174 - [ERROR] - [msg]测试手机号为空, 执行结果为：Fail具体异常为：'{"status":1, "code":"20103", "data":null, "msg":"手机号不能为空"}' != '{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}'
+- {"status":1, "code":"20103", "data":null, "msg":"手机号不能为空"}
+?           ^ -               -            -
++ {"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
+?           ^
+ : 测试手机号为空 - test_01_register.py - 56
+2019-07-14 22:22:37,544 - [ERROR] - [msg]测试手机号小于11位, 执行结果为：Fail具体异常为：'{"status":1, "code":"20109", "data":null, "msg":"手机号格式不正确"}' != '{"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}'
+- {"status":1, "code":"20109", "data":null, "msg":"手机号格式不正确"}
+?           ^ -               -            -
++ {"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}
+?           ^                                      +
+ : 测试手机号小于11位 - test_01_register.py - 56
+2019-07-14 22:22:41,714 - [ERROR] - [msg]测试手机号大于11位, 执行结果为：Fail具体异常为：'{"status":1, "code":"20109", "data":null, "msg":"手机号格式不正确"}' != '{"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}'
+- {"status":1, "code":"20109", "data":null, "msg":"手机号格式不正确"}
+?           ^ -               -            -
++ {"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}
+?           ^                                      +
+ : 测试手机号大于11位 - test_01_register.py - 56
+2019-07-14 22:22:50,137 - [ERROR] - [msg]测试密码小于6位, 执行结果为：Fail具体异常为：'{"status":1, "code":"20108", "data":null, "msg":"密码长度必须为6-18"}' != '{"status":0,"code":"20108","data":null,"msg":"密码长度必须为6~18"}'
+- {"status":1, "code":"20108", "data":null, "msg":"密码长度必须为6-18"}
+?           ^ -               -            -               ^
++ {"status":0,"code":"20108","data":null,"msg":"密码长度必须为6~18"}
+?           ^                                           ^
+ : 测试密码小于6位 - test_01_register.py - 56
+2019-07-14 22:22:58,548 - [ERROR] - [msg]测试密码大于18位, 执行结果为：Fail具体异常为：'{"status":1, "code":"20108", "data":null, "msg":"密码长度必须为6-18"}' != '{"status":0,"code":"20108","data":null,"msg":"密码长度必须为6~18"}'
+- {"status":1, "code":"20108", "data":null, "msg":"密码长度必须为6-18"}
+?           ^ -               -            -               ^
++ {"status":0,"code":"20108","data":null,"msg":"密码长度必须为6~18"}
+?           ^                                           ^
+ : 测试密码大于18位 - test_01_register.py - 56
+2019-07-14 22:23:03,361 - [ERROR] - [msg]测试手机号已注册, 执行结果为：Fail具体异常为：'{"status":1, "code":"20110", "data":null, "msg":"手机号码已被注册"}' != '{"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}'
+- {"status":1, "code":"20110", "data":null, "msg":"手机号码已被注册"}
+?           ^ -               -            -
++ {"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}
+?           ^
+ : 测试手机号已注册 - test_01_register.py - 56
+2019-07-14 22:23:03,362 - [INFO] - [msg]用例执行结束 - test_01_register.py - 31
+2019-07-14 22:25:59,350 - [INFO] - [msg]开始执行用例 - test_01_register.py - 25
+2019-07-14 22:26:20,676 - [ERROR] - [msg]测试密码为空, 执行结果为：Fail具体异常为：'{"status":0, "code":"20103", "data":null, "msg":"密码不能为空"}' != '{"status":0,"code":"20103","data":null,"msg":"密码不能为空"}'
+- {"status":0, "code":"20103", "data":null, "msg":"密码不能为空"}
+?             -               -            -
++ {"status":0,"code":"20103","data":null,"msg":"密码不能为空"}
+ : 测试密码为空 - test_01_register.py - 56
+2019-07-14 22:26:21,666 - [ERROR] - [msg]测试手机号为空, 执行结果为：Fail具体异常为：'{"status":0, "code":"20103", "data":null, "msg":"手机号不能为空"}' != '{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}'
+- {"status":0, "code":"20103", "data":null, "msg":"手机号不能为空"}
+?             -               -            -
++ {"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
+ : 测试手机号为空 - test_01_register.py - 56
+2019-07-14 22:26:23,047 - [ERROR] - [msg]测试手机号小于11位, 执行结果为：Fail具体异常为：'{"status":0, "code":"20109", "data":null, "msg":"手机号格式不正确"}' != '{"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}'
+- {"status":0, "code":"20109", "data":null, "msg":"手机号格式不正确"}
+?             -               -            -
++ {"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}
+?                                                  +
+ : 测试手机号小于11位 - test_01_register.py - 56
+2019-07-14 22:26:23,925 - [ERROR] - [msg]测试手机号大于11位, 执行结果为：Fail具体异常为：'{"status":1, "code":"20109", "data":null, "msg":"手机号格式不正确"}' != '{"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}'
+- {"status":1, "code":"20109", "data":null, "msg":"手机号格式不正确"}
+?           ^ -               -            -
++ {"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}
+?           ^                                      +
+ : 测试手机号大于11位 - test_01_register.py - 56
+2019-07-14 22:26:25,488 - [ERROR] - [msg]测试密码小于6位, 执行结果为：Fail具体异常为：'{"status":1, "code":"20108", "data":null, "msg":"密码长度必须为6~18"}' != '{"status":0,"code":"20108","data":null,"msg":"密码长度必须为6~18"}'
+- {"status":1, "code":"20108", "data":null, "msg":"密码长度必须为6~18"}
+?           ^ -               -            -
++ {"status":0,"code":"20108","data":null,"msg":"密码长度必须为6~18"}
+?           ^
+ : 测试密码小于6位 - test_01_register.py - 56
+2019-07-14 22:26:26,426 - [ERROR] - [msg]测试密码大于18位, 执行结果为：Fail具体异常为：'{"status":1, "code":"20108", "data":null, "msg":"密码长度必须为6~18"}' != '{"status":0,"code":"20108","data":null,"msg":"密码长度必须为6~18"}'
+- {"status":1, "code":"20108", "data":null, "msg":"密码长度必须为6~18"}
+?           ^ -               -            -
++ {"status":0,"code":"20108","data":null,"msg":"密码长度必须为6~18"}
+?           ^
+ : 测试密码大于18位 - test_01_register.py - 56
+2019-07-14 22:26:27,399 - [ERROR] - [msg]测试手机号已注册, 执行结果为：Fail具体异常为：'{"status":1, "code":"20110", "data":null, "msg":"手机号码已被注册"}' != '{"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}'
+- {"status":1, "code":"20110", "data":null, "msg":"手机号码已被注册"}
+?           ^ -               -            -
++ {"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}
+?           ^
+ : 测试手机号已注册 - test_01_register.py - 56
+2019-07-14 22:26:27,400 - [INFO] - [msg]用例执行结束 - test_01_register.py - 31
+2019-07-14 22:27:37,353 - [INFO] - [msg]开始执行用例 - test_01_register.py - 25
+2019-07-14 22:27:55,309 - [ERROR] - [msg]测试密码为空, 执行结果为：Fail具体异常为：'{"status":0, "code":"20103", "data":null, "msg":"密码不能为空"}' != '{"status":0,"code":"20103","data":null,"msg":"密码不能为空"}'
+- {"status":0, "code":"20103", "data":null, "msg":"密码不能为空"}
+?             -               -            -
++ {"status":0,"code":"20103","data":null,"msg":"密码不能为空"}
+ : 测试密码为空 - test_01_register.py - 56
+2019-07-14 22:27:56,775 - [ERROR] - [msg]测试手机号为空, 执行结果为：Fail具体异常为：'{"status":0, "code":"20103", "data":null, "msg":"手机号不能为空"}' != '{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}'
+- {"status":0, "code":"20103", "data":null, "msg":"手机号不能为空"}
+?             -               -            -
++ {"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
+ : 测试手机号为空 - test_01_register.py - 56
+2019-07-14 22:27:58,329 - [ERROR] - [msg]测试手机号小于11位, 执行结果为：Fail具体异常为：'{"status":0, "code":"20109", "data":null, "msg":"手机号格式不正确"}' != '{"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}'
+- {"status":0, "code":"20109", "data":null, "msg":"手机号格式不正确"}
+?             -               -            -
++ {"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}
+?                                                  +
+ : 测试手机号小于11位 - test_01_register.py - 56
+2019-07-14 22:28:00,835 - [ERROR] - [msg]测试手机号大于11位, 执行结果为：Fail具体异常为：'{"status":0, "code":"20109", "data":null, "msg":"手机号格式不正确"}' != '{"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}'
+- {"status":0, "code":"20109", "data":null, "msg":"手机号格式不正确"}
+?             -               -            -
++ {"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}
+?                                                  +
+ : 测试手机号大于11位 - test_01_register.py - 56
+2019-07-14 22:28:04,517 - [ERROR] - [msg]测试密码小于6位, 执行结果为：Fail具体异常为：'{"status":0, "code":"20108", "data":null, "msg":"密码长度必须为6~18"}' != '{"status":0,"code":"20108","data":null,"msg":"密码长度必须为6~18"}'
+- {"status":0, "code":"20108", "data":null, "msg":"密码长度必须为6~18"}
+?             -               -            -
++ {"status":0,"code":"20108","data":null,"msg":"密码长度必须为6~18"}
+ : 测试密码小于6位 - test_01_register.py - 56
+2019-07-14 22:28:07,019 - [ERROR] - [msg]测试密码大于18位, 执行结果为：Fail具体异常为：'{"status":0, "code":"20108", "data":null, "msg":"密码长度必须为6~18"}' != '{"status":0,"code":"20108","data":null,"msg":"密码长度必须为6~18"}'
+- {"status":0, "code":"20108", "data":null, "msg":"密码长度必须为6~18"}
+?             -               -            -
++ {"status":0,"code":"20108","data":null,"msg":"密码长度必须为6~18"}
+ : 测试密码大于18位 - test_01_register.py - 56
+2019-07-14 22:28:09,638 - [ERROR] - [msg]测试手机号已注册, 执行结果为：Fail具体异常为：'{"status":0, "code":"20110", "data":null, "msg":"手机号码已被注册"}' != '{"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}'
+- {"status":0, "code":"20110", "data":null, "msg":"手机号码已被注册"}
+?             -               -            -
++ {"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}
+ : 测试手机号已注册 - test_01_register.py - 56
+2019-07-14 22:28:09,638 - [INFO] - [msg]用例执行结束 - test_01_register.py - 31
+2019-07-14 22:29:50,099 - [INFO] - [msg]开始执行用例 - test_01_register.py - 25
+2019-07-14 22:29:55,306 - [ERROR] - [msg]测试手机号小于11位, 执行结果为：Fail具体异常为：'{"status":0,"code":"20109","data":null,"msg":"手机号格式不正确"}' != '{"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}'
+- {"status":0,"code":"20109","data":null,"msg":"手机号格式不正确"}
++ {"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}
+?                                                  +
+ : 测试手机号小于11位 - test_01_register.py - 56
+2019-07-14 22:29:55,957 - [ERROR] - [msg]测试手机号大于11位, 执行结果为：Fail具体异常为：'{"status":0,"code":"20109","data":null,"msg":"手机号格式不正确"}' != '{"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}'
+- {"status":0,"code":"20109","data":null,"msg":"手机号格式不正确"}
++ {"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}
+?                                                  +
+ : 测试手机号大于11位 - test_01_register.py - 56
+2019-07-14 22:29:58,704 - [INFO] - [msg]用例执行结束 - test_01_register.py - 31
+2019-07-14 22:31:39,562 - [INFO] - [msg]开始执行用例 - test_01_register.py - 25
+2019-07-14 22:31:52,447 - [INFO] - [msg]用例执行结束 - test_01_register.py - 31
+2019-07-15 08:46:18,089 - [INFO] - [msg]开始执行用例 - test_01_register.py - 25
+2019-07-15 08:46:22,813 - [INFO] - [msg]用例执行结束 - test_01_register.py - 31
+2019-07-15 15:55:37,590 - [INFO] - [msg]开始执行用例 - test_01_register.py - 25
+2019-07-15 15:55:41,408 - [INFO] - [msg]用例执行结束 - test_01_register.py - 31

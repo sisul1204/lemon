@@ -1,0 +1,8 @@
+2019-07-15 15:56:55,935 - [INFO] - [msg]这个是一个info级别的日志信息 - handle_log.py - 60
+2019-07-15 15:56:55,935 - [INFO] - [msg]这个是一个info级别的日志信息 - handle_log.py - 60
+2019-07-15 15:56:55,935 - [WARNING] - [msg]这个是一个warning级别的日志信息 - handle_log.py - 61
+2019-07-15 15:56:55,935 - [WARNING] - [msg]这个是一个warning级别的日志信息 - handle_log.py - 61
+2019-07-15 15:56:55,936 - [ERROR] - [msg]这个是一个error级别的日志信息 - handle_log.py - 62
+2019-07-15 15:56:55,936 - [ERROR] - [msg]这个是一个error级别的日志信息 - handle_log.py - 62
+2019-07-15 15:56:55,936 - [CRITICAL] - [msg]这个是一个critical级别的日志信息 - handle_log.py - 63
+2019-07-15 15:56:55,936 - [CRITICAL] - [msg]这个是一个critical级别的日志信息 - handle_log.py - 63

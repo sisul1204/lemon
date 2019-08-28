@@ -1,0 +1,11 @@
+2019-08-28 11:02:08,991 - [INFO] - [msg]开始执行用例 - test_01_register.py - 25
+2019-08-28 11:02:15,840 - [INFO] - [msg]用例执行结束 - test_01_register.py - 31
+2019-08-28 11:02:15,841 - [INFO] - [msg]开始执行用例 - test_02_login.py - 25
+2019-08-28 11:02:17,423 - [INFO] - [msg]用例执行结束 - test_02_login.py - 30
+2019-08-28 11:02:17,560 - [INFO] - [msg]开始执行用例 - test_03_recharge.py - 29
+2019-08-28 11:02:18,438 - [INFO] - [msg]用例执行结束 - test_03_recharge.py - 36
+2019-08-28 11:02:18,583 - [INFO] - [msg]开始执行用例 - test_04_add.py - 28
+2019-08-28 11:02:19,039 - [INFO] - [msg]用例执行结束 - test_04_add.py - 35
+2019-08-28 11:02:19,426 - [INFO] - [msg]开始执行用例 - test_05_invest.py - 29
+2019-08-28 11:02:21,173 - [ERROR] - [msg]测试投资人投资，loanId为负数, 执行结果为：Fail具体异常为：'11005' not found in '{"status":0,"code":"11009","data":null,"msg":"不存在该标的"}' : 测试投资人投资，loanId为负数 - test_05_invest.py - 80
+2019-08-28 11:02:21,754 - [INFO] - [msg]用例执行结束 - test_05_invest.py - 36

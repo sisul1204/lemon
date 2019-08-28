@@ -1,0 +1,11 @@
+2019-07-22 08:45:49,144 - [INFO] - [msg]开始执行用例 - test_03_recharge.py - 23
+2019-07-22 08:45:49,593 - [ERROR] - [msg]测试正常登录, 执行结果：Fail具体异常为：'10001' not found in '{"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}' : 测试正常登录 - test_03_recharge.py - 52
+2019-07-22 08:45:49,985 - [ERROR] - [msg]测试充值成功, 执行结果：Fail具体异常为：'10001' not found in '{"status":0,"code":null,"data":null,"msg":"抱歉，请先登录。"}' : 测试充值成功 - test_03_recharge.py - 52
+2019-07-22 08:45:51,523 - [ERROR] - [msg]测试充值失败，金额为空, 执行结果：Fail具体异常为：'20103' not found in '{"status":0,"code":null,"data":null,"msg":"抱歉，请先登录。"}' : 测试充值失败，金额为空 - test_03_recharge.py - 52
+2019-07-22 08:45:51,862 - [ERROR] - [msg]测试充值失败，对应会员不存在, 执行结果：Fail具体异常为：'20104' not found in '{"status":0,"code":null,"data":null,"msg":"抱歉，请先登录。"}' : 测试充值失败，对应会员不存在 - test_03_recharge.py - 52
+2019-07-22 08:45:52,201 - [ERROR] - [msg]测试充值失败，手机格式不对, 执行结果：Fail具体异常为：'20109' not found in '{"status":0,"code":null,"data":null,"msg":"抱歉，请先登录。"}' : 测试充值失败，手机格式不对 - test_03_recharge.py - 52
+2019-07-22 08:45:52,600 - [ERROR] - [msg]测试充值失败，金额为空, 执行结果：Fail具体异常为：'20115' not found in '{"status":0,"code":null,"data":null,"msg":"抱歉，请先登录。"}' : 测试充值失败，金额为空 - test_03_recharge.py - 52
+2019-07-22 08:45:53,028 - [ERROR] - [msg]测试充值失败，金额小数为4, 执行结果：Fail具体异常为：'20116' not found in '{"status":0,"code":null,"data":null,"msg":"抱歉，请先登录。"}' : 测试充值失败，金额小数为4 - test_03_recharge.py - 52
+2019-07-22 08:45:53,450 - [ERROR] - [msg]测试充值失败，金额大于50万, 执行结果：Fail具体异常为：'20117' not found in '{"status":0,"code":null,"data":null,"msg":"抱歉，请先登录。"}' : 测试充值失败，金额大于50万 - test_03_recharge.py - 52
+2019-07-22 08:45:53,851 - [ERROR] - [msg]测试充值失败，金额为字母, 执行结果：Fail具体异常为：'20118' not found in '{"status":0,"code":null,"data":null,"msg":"抱歉，请先登录。"}' : 测试充值失败，金额为字母 - test_03_recharge.py - 52
+2019-07-22 08:45:53,852 - [INFO] - [msg]用例执行结束 - test_03_recharge.py - 28

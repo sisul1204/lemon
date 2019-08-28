@@ -1,0 +1,3 @@
+2019-07-22 09:40:43,268 - [INFO] - [msg]开始执行用例 - test_05_invest.py - 29
+2019-07-22 09:40:43,445 - [ERROR] - [msg]测试管理员加标, 执行结果为：Fail具体异常为：'10001' not found in '{"status":0,"code":"20103","data":null,"msg":"所有参数不能为空"}' : 测试管理员加标 - test_05_invest.py - 77
+2019-07-22 09:40:43,515 - [INFO] - [msg]用例执行结束 - test_05_invest.py - 36

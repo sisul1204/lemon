@@ -1,0 +1,5 @@
+2019-07-22 09:15:55,194 - [INFO] - [msg]开始执行用例 - test_05_invest.py - 29
+2019-07-22 09:15:55,668 - [ERROR] - [msg]测试管理员加标, 执行结果为：Fail具体异常为：'10001' not found in '{"status":0,"code":"20103","data":null,"msg":"所有参数不能为空"}' : 测试管理员加标 - test_05_invest.py - 75
+2019-07-22 09:15:55,828 - [ERROR] - [msg]测试管理员审核, 执行结果为：Fail具体异常为：'10001' not found in '{"status":0,"code":"20212","data":null,"msg":"请根据数值参数的类型对应输入合法的数字"}' : 测试管理员审核 - test_05_invest.py - 75
+2019-07-22 09:15:56,163 - [ERROR] - [msg]测试投资人正常投资, 执行结果为：Fail具体异常为：'10001' not found in '{"status":0,"code":"11013","data":null,"msg":"请根据数值参数的类型对应输入合法的数字"}' : 测试投资人正常投资 - test_05_invest.py - 75
+2019-07-22 09:15:56,164 - [INFO] - [msg]用例执行结束 - test_05_invest.py - 36
